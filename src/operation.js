@@ -108,6 +108,7 @@ export class Operation {
         result.destination = accountIdtoAddress(attrs.destination());
         result.asset = Asset.fromOperation(attrs.asset());
         result.amount = this._fromXDRAmount(attrs.amount());
+        result.payload = this._fromXDRAmount(attrs.payload());
         break;
       }
       case 'pathPaymentStrictReceive': {
