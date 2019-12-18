@@ -1,7 +1,6 @@
 GIT
-  remote: git@github.com:stellar/xdrgen.git
-  revision: 914c86ed6cee77e8e58883efe7cad4e0535b5ea0
-  branch: enum-standard-type-discriminant
+  remote: https://github.com/stellar/xdrgen.git
+  revision: 08e9c35abbac94a735fbe08620d2234404cde73d
   specs:
     xdrgen (0.0.1)
       activesupport (~> 5)
@@ -12,7 +11,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.3)
+    activesupport (5.2.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -23,11 +22,11 @@ GEM
     concurrent-ruby (1.1.5)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
-    i18n (1.6.0)
+    i18n (1.7.0)
       concurrent-ruby (~> 1.0)
     memoist (0.11.0)
     method_source (0.9.2)
-    minitest (5.11.3)
+    minitest (5.13.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
     octokit (4.14.0)
